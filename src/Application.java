@@ -19,6 +19,7 @@ public class Application extends Frame implements WindowListener {
 		modl.addObserver(vue);
 		vue.addActionListener(ctrl);
 		
+		this.setTitle("Compteur");
 		this.add(vue);
 		this.pack();
 		this.setVisible(true);
