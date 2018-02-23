@@ -19,6 +19,7 @@ public class Application extends Frame implements WindowListener {
 		modl.addObserver(vue);
 		vue.addActionListener(ctrl);
 		
+		this.setTitle("Windows 2018");
 		this.add(vue);
 		this.pack();
 		this.setVisible(true);
